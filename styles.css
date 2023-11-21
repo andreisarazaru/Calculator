@@ -1,0 +1,286 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.current-screen
+{
+	font-size: 200px;
+	font-family: 'VT323', monospace ;
+	text-align: right;
+	padding: 20px;
+
+}
+
+
+.previous-screen
+{
+	font-size: 200px;
+	font-family: 'VT323', monospace ;
+	text-align: right;
+	padding: 20px;
+}
+
+.calculator
+{
+  border: 5px solid #0d0c0c;
+	border-radius: 80px;
+  background-color: #ffffff;
+	padding: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.brand
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-container
+{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#title 
+{
+	color: #aeaeae;
+	font-family: "Arial", "Helvetica Neue", sans-serif;
+	font-size: 50px;
+	border:10px solid #aeaeae;
+	text-align: center;
+	border-radius: 40px;
+	display: inline-block;
+	padding: 15px;
+}
+
+.screen-container
+{
+	border: 10px solid #a5a2a2;
+	background-color: #a5a2a2;
+	border-radius: 50px;
+	padding: none;
+
+}
+
+#screen
+{
+  border: 50px solid #a5a2a2;
+	background-color: #e5e5e5 ;
+  border-radius: 50px;
+  height: 500px;
+	width: 880px;
+  margin: 10px;
+	display: grid;
+	grid-template-columns: 870px;
+	grid-template-rows: 200px 300px;
+}
+
+.buttons
+{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px;
+	grid-template-rows: 200px 200px 200px 200px 200px;
+	gap: 80px;
+
+}
+
+.erase
+{
+	border: none;
+	background: #dd2020;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 80px;
+  font-family: 'VT323', monospace ;
+	margin: 1px;
+	padding: 0.8x;
+	text-transform: uppercase;
+	width: auto;
+
+	&:hover {
+		background: #690000;
+	}
+	&:active {
+		background: #dd2020;
+	}
+}
+
+.all-clear
+{
+	border: none;
+	background: #dd2020;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 80px;
+  font-family: 'VT323', monospace ;
+	margin: 1px;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	width: auto;
+
+	&:hover {
+		background: #690000;
+	}
+	&:active {
+		background: #dd2020;
+	}
+}
+
+.power {
+	border: none;
+	background: #0d0c0c;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 80px;
+  font-family: 'VT323', monospace ;
+	margin: 1px;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	width: auto;
+
+	&:hover {
+		background: #313131;
+	}
+	&:active {
+		background: #0d0c0c;
+	}
+}
+
+
+.number {
+	border: none;
+	background: #a5a2a2;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 80px;
+  font-family: 'VT323', monospace ;
+	margin: 1px;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	width: auto;
+
+	&:hover {
+		background: #a5a2a2;
+	}
+	&:active {
+		background: #e5e5e5;
+	}
+}
+
+.operator {
+	border: none;
+	background: #0d0c0c;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 80px;
+  font-family: 'VT323', monospace ;
+	margin: 1px;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	width: auto;
+
+	&:hover {
+		background: #313131;
+	}
+	&:active {
+		background: #0d0c0c;
+	}
+}
+
+.equal
+{
+	border: none;
+	background: #dd2020;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 80px;
+  font-family: 'VT323', monospace ;
+	margin: 1px;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	width: auto;
+
+	&:hover {
+		background: #690000;
+	}
+	&:active {
+		background: #dd2020;
+	}
+}
+
+.decimal
+{
+	border: none;
+	background: #0d0c0c;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 80px;
+  font-family: 'VT323', monospace ;
+	margin: 1px;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	width: auto;
+
+	&:hover {
+		background: #313131;
+	}
+	&:active {
+		background: #0d0c0c;
+	}
+}
+
+.factorial
+{
+	border: none;
+	background: #0d0c0c;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 80px;
+  font-family: 'VT323', monospace ;
+	margin: 1px;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	width: auto;
+
+	&:hover {
+		background: #313131;
+	}
+	&:active {
+		background: #0d0c0c;
+	}
+}
+
+
+
+
+
+
+
+
+
